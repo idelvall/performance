@@ -4,7 +4,7 @@ Some Java performance numbers for myself, with the idea of having a sense on wha
 JIT has been disabled for these tests in order to do not apply any optimization.
 
 - [performance](#performance)
-  * [Cost of getting stack trace (ns)](#cost-of-getting-stack-trace--ns)
+  * [Cost of getting stack trace (ns)](#cost-of-getting-stack-trace-ns)
 
 
 ## Cost of getting stack trace (ns)
