@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.brutusin</groupId>
+    <artifactId>brutusin</artifactId>
+    <version>1.0.0</version>
+  </parent>
+  <groupId>org.brutusin</groupId>
+  <artifactId>performance</artifactId>
+  <packaging>jar</packaging>
+  <version>0.0.0-SNAPSHOT</version>
+  <name>${project.groupId}:${project.artifactId}</name>
+  <url>https://github.com/idelvall/performance</url>
+
+  <issueManagement>
+    <system>GitHub Issues</system>
+    <url>https://github.com/idelvall/performanceissues</url>
+  </issueManagement>
+
+  <ciManagement>
+    <system>travis-ci</system>
+    <url>https://travis-ci.org/idelvall/performance</url>
+  </ciManagement>
+
+  <scm>
+    <url>https://github.com/idelvall/performance</url>
+    <connection>scm:git:https://github.com/idelvall/performance.git</connection>
+    <developerConnection>scm:git:https://github.com/idelvall/performance.git</developerConnection>
+    <tag>HEAD</tag>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.10</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+  <properties>
+    <maven.compiler.source>1.6</maven.compiler.source>
+    <maven.compiler.target>1.6</maven.compiler.target>
+  </properties>
+</project>
