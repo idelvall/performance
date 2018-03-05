@@ -1,7 +1,7 @@
 # performance
 Some Java performance numbers for myself, with the idea of having a sense on what the relative cost of certain operations is.
 
-JIT has been disabled for these tests in order to do not apply any optimization.
+JIT has been disabled for these tests in order to avoid any code optimization.
 
 - [performance](#performance)
   * [Cost of getting stack trace (ns)](#cost-of-getting-stack-trace-ns)
