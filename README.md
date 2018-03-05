@@ -1,6 +1,7 @@
 # performance
 Some Java performance numbers for myself, with the idea of having a sense on what the relative cost of certain operations is.
-JIT has been disabled for these tests (so no optimizations have been applied).
+
+JIT has been disabled for these tests in order to do not apply any optimization.
 
 ## Cost of getting stack trace (ns) ([source code](src/test/java/org/brutusin/StackTraceTest.java))
 
