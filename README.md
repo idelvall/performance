@@ -3,11 +3,17 @@ Some Java performance numbers for myself, with the idea of having a sense on wha
 
 JIT has been disabled for these tests in order to do not apply any optimization.
 
-## Cost of getting stack trace (ns) ([source code](src/test/java/org/brutusin/StackTraceTest.java))
+- [performance](#performance)
+  * [Cost of getting stack trace (ns)](#cost-of-getting-stack-trace--ns)
+
+
+## Cost of getting stack trace (ns)
+
+[source code](src/test/java/org/brutusin/StackTraceTest.java)
 
 | Procedure | Stack length of 1 | Stack length of 10 | Stack length of 50 | Stack length of 100 | Stack length of 200 | Stack length of 400 | Stack length of 800 |
 | - | - | - | - | - | - | - | - |
-| Throwable | 4046 | 10612 | 41631 | 88745 | 168322 | 322019 | 668278 | 
-| Filled | 2586 | 8736 | 36679 | 72597 | 158548 | 294444 | 620728 | 
-| Thread | 4373 | 10191 | 42923 | 78147 | 157562 | 301731 | 603897 | 
+| Throwable | 3552 | 10819 | 44499 | 92509 | 184329 | 338808 | 713571 | 
+| Filled | 2528 | 9229 | 45497 | 81678 | 161970 | 340909 | 682630 | 
+| Thread | 3803 | 10156 | 46239 | 87887 | 160443 | 358918 | 672376 | 
 
